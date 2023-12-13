@@ -8,7 +8,7 @@ def enviar_informacion_sistema(ip_servidor, puerto_servidor):
         "RAM": psutil.virtual_memory().percent,
         "Disco": psutil.disk_usage('/').percent
 
-        # Puedes agregar más información del sistema según lo necesites
+        # Información del sistema
     }
 
     # Convertir a formato JSON
