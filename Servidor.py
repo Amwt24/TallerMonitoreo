@@ -23,7 +23,7 @@ def enviar_informacion_sistema(ip_servidor, puerto_servidor):
 
 if __name__ == "__main__":
     # IP y puerto del servidor (tu PC local)
-    ip_servidor = '10.3.20.248'  # Cambia a la IP de tu PC local o 'localhost'
+    ip_servidor = '10.3.20.248'  # IP PC local o 'localhost'
     puerto_servidor = 65432  # Puerto donde el servidor estará escuchando
 
     enviar_informacion_sistema(ip_servidor, puerto_servidor)

@@ -4,7 +4,7 @@ import json
 def iniciar_servidor(puerto):
     # Crear un socket de tipo servidor
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as servidor:
-        servidor.bind(('0.0.0.0', puerto))
+        servidor.bind(('10.119.252.102', puerto))
         print(f"Escuchando en el puerto {puerto}...")
 
         # Esperar por conexiones entrantes (máximo 1 conexión a la vez)
